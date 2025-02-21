@@ -14,6 +14,6 @@ O modelo conceitual define a estrutura inicial do banco de dados, representando 
 - **Pagamento:** Métodos de pagamento e status das transações.  
 - **Estoque:** Controle da disponibilidade dos produtos.  
   
-
+# **ATUALIZANDO MODELO PARA NOVA INSERÇÃO, DETECTADO ERRO EM UMA RELAÇÃO**
 
 

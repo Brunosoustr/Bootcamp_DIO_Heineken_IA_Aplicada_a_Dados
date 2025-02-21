@@ -16,6 +16,6 @@ O modelo conceitual define a estrutura inicial do banco de dados, representando 
   
 ## Entrega do Projeto 📫
 O modelo conceitual foi desenvolvido na plataforma [DrawDB](https://drawdb.vercel.app/). 
-Os arquivos estão sendo disponibilizados em formato .png e .SQL (que permite a importação na plataforma e eventuais mudanças).
+Os arquivos estão sendo disponibilizados em formato [.png](https://github.com/Brunosoustr/Bootcamp_DIO-Heineken-IA_Aplicada_a_Dados/blob/main/Projeto%20E-Commerce%20-%20Modelo%20Conceitual%20de%20Banco%20de%20Dados/Projeto%20-%20Modelo%20Conceitual%20Banco%20de%20Dados.png) e [.SQL](https://github.com/Brunosoustr/Bootcamp_DIO-Heineken-IA_Aplicada_a_Dados/blob/main/Projeto%20E-Commerce%20-%20Modelo%20Conceitual%20de%20Banco%20de%20Dados/Project%20E-Commerce.sql) (que permite a importação na plataforma e eventuais mudanças).
 
 

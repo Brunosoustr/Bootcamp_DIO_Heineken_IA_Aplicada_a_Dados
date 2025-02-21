@@ -15,7 +15,7 @@ O modelo conceitual define a estrutura inicial do banco de dados, representando 
 - **Estoque:** Controle da disponibilidade dos produtos.  
   
 ## Entrega do Projeto 📫
-O modelo conceitual foi desenvolvido na plataforma [DrawDB] (https://drawdb.vercel.app/). 
+O modelo conceitual foi desenvolvido na plataforma [DrawDB](https://drawdb.vercel.app/). 
 Os arquivos estão sendo disponibilizados em formato .png e .SQL (que permite a importação na plataforma e eventuais mudanças).
 
 

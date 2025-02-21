@@ -7,13 +7,15 @@ Projeto executado no **Bootcamp Heineken - Inteligência Artificial Aplicada a D
 
 O modelo conceitual define a estrutura inicial do banco de dados, representando as entidades principais, seus atributos e relacionamentos. Ele serve como a base para a modelagem lógica e física, garantindo que o sistema atenda aos requisitos de um e-commerce típico.
 
-### **Principais Entidades:**  
+### **Principais Entidades:**  ⚙
 - **Cliente:** Dados do usuário, como nome, e-mail e endereço.  
 - **Produto:** Informações sobre os produtos disponíveis para venda.  
 - **Pedido:** Registro de compras feitas pelos clientes.  
 - **Pagamento:** Métodos de pagamento e status das transações.  
 - **Estoque:** Controle da disponibilidade dos produtos.  
   
-# 📢📴🚩**ATUALIZANDO MODELO PARA NOVA INSERÇÃO, DETECTADO ERRO EM UMA RELAÇÃO**
+## Entrega do Projeto 📫
+O modelo conceitual foi desenvolvido na plataforma [DrawDB] (https://drawdb.vercel.app/). 
+Os arquivos estão sendo disponibilizados em formato .png e .SQL (que permite a importação na plataforma e eventuais mudanças).
 
 

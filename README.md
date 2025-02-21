@@ -10,7 +10,7 @@ Neste repositório compartilho minha trilha de aprendizado e os projetos desenvo
 
 ## 📂 Projetos Desenvolvidos durante o Bootcamp
 
-### 🛒 [Projeto E-Commerce]()
+### 🛒 [Projeto E-Commerce](https://github.com/Brunosoustr/Bootcamp_DIO-Heineken-IA_Aplicada_a_Dados_com_IA/tree/main/Projeto%20E-Commerce%20-%20Modelo%20Conceitual%20de%20Banco%20de%20Dados)
 - Modelagem conceitual de um banco de dados para uma plataforma de e-commerce.
 - Estruturação de tabelas para clientes, produtos, pedidos e pagamentos.
 - Análise de dados de vendas e comportamento dos clientes.

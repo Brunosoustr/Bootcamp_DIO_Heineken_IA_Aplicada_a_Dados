@@ -1,6 +1,6 @@
 # Bootcamp DIO & Heineken - Inteligência Artificial Aplicada a Dados com IA
 
-Neste repositório compartilho minha trilha de aprendizado e o projetos desenvolvidos ao longo desta jornada focada na aplicação de **Dados com Inteligência Artificial**. 🤖
+Neste repositório compartilho minha trilha de aprendizado e os projetos desenvolvidos ao longo desta jornada focada na aplicação de **Dados com Inteligência Artificial**. 🤖
 
 ## 📚 Módulos de ensino abordados:
 - **Introdução ao GitHub**: Versionamento de código com GIT e GitHub.

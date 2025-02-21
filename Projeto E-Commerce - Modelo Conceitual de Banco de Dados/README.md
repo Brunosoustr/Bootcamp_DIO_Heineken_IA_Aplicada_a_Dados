@@ -1,6 +1,6 @@
 # 📄 Projeto E-Commerce - Banco de Dados
 
-Projeto executado no **Bootcamp Heineken - Inteligência Artificial Aplicada a Dados com Copilot** que tem como objetivo a modelagem conceitual, lógica e física de um banco de dados para um sistema de E-Commerce.
+Projeto executado no **Bootcamp Heineken - Inteligência Artificial Aplicada a Dados com IA** que tem como objetivo a modelagem conceitual, lógica e física de um banco de dados para um sistema de E-Commerce.
 
 
 ## Modelo Conceitual 🧱   

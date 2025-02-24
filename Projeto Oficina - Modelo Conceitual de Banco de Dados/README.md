@@ -1,4 +1,4 @@
-# Desafio Prático 
+# Desafio Prático 🧩
 ## Ojetivo: Criar um esquema conceitual de banco de dados para o contexto de uma oficina mecânica com base na narrativa abaixo:
 
 ### Narrativa:

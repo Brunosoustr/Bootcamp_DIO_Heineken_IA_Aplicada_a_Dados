@@ -1,0 +1,101 @@
+CREATE TABLE `Clientes` (
+	`idClientes` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	`nomeCliente` VARCHAR(255),
+	`CPF/CNPJ` INTEGER,
+	`enderecoCliente` VARCHAR(255),
+	PRIMARY KEY(`idClientes`)
+);
+
+
+CREATE TABLE `Veiculos` (
+	`idVeiculos` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	`nomeVeiculo` VARCHAR(255) NOT NULL,
+	`marcaVeiculo` VARCHAR(255),
+	`idCliente` INTEGER NOT NULL,
+	PRIMARY KEY(`idVeiculos`)
+);
+
+
+CREATE TABLE `Mecanicos` (
+	`idMecanico` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	`nomeMecanico` VARCHAR(255) NOT NULL,
+	`enderecoMecanico` VARCHAR(255),
+	`especializacaoMecanico` TEXT(65535) NOT NULL COMMENT 'Reparo ou Revisão Periódica',
+	`idEquipe` INTEGER NOT NULL,
+	PRIMARY KEY(`idMecanico`)
+);
+
+
+CREATE TABLE `Equipe` (
+	`idEquipe` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	`idMecanico` INTEGER NOT NULL,
+	`especializacaoEquipe` TEXT(65535) COMMENT 'Manutenção ou Revisão Periódica',
+	PRIMARY KEY(`idEquipe`)
+);
+
+
+CREATE TABLE `Peca` (
+	`idPeca` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	`nomePeca` VARCHAR(255) NOT NULL,
+	`valorPeca` DECIMAL NOT NULL,
+	PRIMARY KEY(`idPeca`)
+);
+
+
+CREATE TABLE `Mao de Obra` (
+	`idMaodeobra` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	`descricaoMaodeobra` VARCHAR(255),
+	`valorMaodeobra` DECIMAL,
+	PRIMARY KEY(`idMaodeobra`)
+);
+
+
+CREATE TABLE `Servico` (
+	`idServico` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	`idEquipe` INTEGER NOT NULL,
+	`descricaoServico` VARCHAR(255) NOT NULL COMMENT 'descricaoMaodeObra + pecas + adicionais',
+	`idMaodeobra` INTEGER NOT NULL,
+	`idPeca` INTEGER NOT NULL,
+	`autoServico` TEXT(65535) NOT NULL,
+	PRIMARY KEY(`idServico`)
+);
+
+
+CREATE TABLE `OS` (
+	`idOS` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	`numeroOS` VARCHAR(255) NOT NULL,
+	`dataEmissaoOS` DATE NOT NULL,
+	`valorOS` DECIMAL NOT NULL,
+	`statusOS` TEXT(65535) NOT NULL,
+	`dataConclusaoOS` DATE NOT NULL,
+	`idServico` INTEGER NOT NULL,
+	`nomePeca` VARCHAR(255) NOT NULL,
+	`valorPeca` DECIMAL NOT NULL,
+	PRIMARY KEY(`idOS`)
+);
+
+
+ALTER TABLE `Veiculos`
+ADD FOREIGN KEY(`idCliente`) REFERENCES `Clientes`(`idClientes`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE `Equipe`
+ADD FOREIGN KEY(`idMecanico`) REFERENCES `Mecanicos`(`idMecanico`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE `Servico`
+ADD FOREIGN KEY(`idEquipe`) REFERENCES `Equipe`(`idEquipe`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE `OS`
+ADD FOREIGN KEY(`idServico`) REFERENCES `Servico`(`idServico`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE `OS`
+ADD FOREIGN KEY(`nomePeca`) REFERENCES `Peca`(`nomePeca`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE `OS`
+ADD FOREIGN KEY(`valorPeca`) REFERENCES `Peca`(`valorPeca`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE `Servico`
+ADD FOREIGN KEY(`idMaodeobra`) REFERENCES `Mao de Obra`(`idMaodeobra`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE `Servico`
+ADD FOREIGN KEY(`idPeca`) REFERENCES `Peca`(`idPeca`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;

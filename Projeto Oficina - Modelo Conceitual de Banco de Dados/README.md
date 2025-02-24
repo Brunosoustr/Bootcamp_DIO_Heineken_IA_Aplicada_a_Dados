@@ -1,8 +1,8 @@
-#Bootcamp NEXA - Análise Avançada de Imagens e Texto com IA na AWS#
+# Bootcamp NEXA - Análise Avançada de Imagens e Texto com IA na AWS
 
 **Bootcamp oferecido pela DIO e patrocinado pela NEXA Resources, com o apoio da Amazon Web Services (AWS).** 
 
-##📚Módulos de Aprendizado:##
+## 📚Módulos de Aprendizado:##
 
 *Análise Avançada de Imagens e Texto com IA na AWS com a NEXA*
 
@@ -19,7 +19,7 @@
 
 *Associando Casos de Uso de Análise de Imagens e Texto na AWS com Lógica de Programação*
 
-##🧩Desafios Práticos:##
+## 🧩Desafios Práticos:##
 
 *Desafios de Projetos: Crie Um Portfólio Vencedor*
 

@@ -1,4 +1,5 @@
 # 📄 Projeto E-Commerce - Banco de Dados
+[![Bando de Dados](https://img.shields.io/badge/Desafio-Banco%20de%20Dados-orange)](https://github.com/Brunosoustr/Bootcamp_DIO-Heineken-IA_Aplicada_a_Dados/tree/main/Projeto%20E-Commerce%20-%20Modelo%20Conceitual%20de%20Banco%20de%20Dados)
 
 Projeto executado no **Bootcamp Heineken - Inteligência Artificial Aplicada a Dados com IA** que tem como objetivo a modelagem conceitual, lógica e física de um banco de dados para um sistema de E-Commerce.
 

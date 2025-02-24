@@ -1,5 +1,5 @@
 # Desafio Prático 🧩
-[![Bando de Dados](https://img.shields.io/badge/Desafio-Banco%20de%20Dados-orange)]([https://github.com/Brunosoustr/Bootcamp_DIO-Heineken-IA_Aplicada_a_Dados/tree/main/Projeto%20E-Commerce%20-%20Modelo%20Conceitual%20de%20Banco%20de%20Dados](https://github.com/Brunosoustr/Bootcamp_DIO-Heineken-IA_Aplicada_a_Dados/tree/main/Projeto%20Oficina%20-%20Modelo%20Conceitual%20de%20Banco%20de%20Dados))
+[![Bando de Dados](https://img.shields.io/badge/Desafio-Banco%20de%20Dados-orange)](https://github.com/Brunosoustr/Bootcamp_DIO-Heineken-IA_Aplicada_a_Dados/tree/main/Projeto%20Oficina%20-%20Modelo%20Conceitual%20de%20Banco%20de%20Dados)
 ## Ojetivo: Criar um esquema conceitual de banco de dados para o contexto de uma oficina mecânica com base na narrativa abaixo:
 
 ### Narrativa 🧾
